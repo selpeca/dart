@@ -1,7 +1,7 @@
 void main() {
   final mySquare = Square(side: 10);
 
-  // mySquare.side = -4;
+  mySquare.side = -4;
 
   print('Área del cuadrado: ${mySquare.area}');
 }
