@@ -6,11 +6,12 @@ void main() {
   final sprites = <String>['ditto/front.png', 'ditto/back.png'];
 
   // dynamic === null
+  /*
   dynamic errorMessage = 'Hola';
   errorMessage = true;
   errorMessage = 404;
   errorMessage = [1, 2, 3, 4, 5, 6];
-
+  */
   print("""Pokemon: $pokemon
     HP: $hp
     Is Alive: $isAlive
